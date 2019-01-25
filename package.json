@@ -1,0 +1,33 @@
+{
+  "name": "ln-drive",
+  "version": "0.0.1",
+  "description": "Lightning Network based storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsbondi/ln-drive.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "lightning"
+  ],
+  "author": "Richard Bondi",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.3.0",
+    "bitcoinjs-lib": "^4.0.2",
+    "carlo": "^0.9.11",
+    "grpc": "^1.16.0",
+    "promise": "^8.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/rsbondi/ln-drive/issues"
+  },
+  "homepage": "https://github.com/rsbondi/ln-drive#readme"
+}
